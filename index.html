@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlacementPro - Your Guide to Placement Success</title>
+    
+</head>
+<body>
+    <!-- Main Content -->
+    <div id="main-content">
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <a href="#" class="logo">Placement<span>Guidance</span></a>
+                    <div class="nav-links">
+                        <a href="#challenges">Challenges</a>
+                        <a href="#testimonials">Success Stories</a>
+                        <a href="#newsletter">Resources</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#" class="btn btn-outline" onclick="showLogin()">Login</a>
+                    </div>
+                </nav>
+                <div class="hero">
+                    <h1>Overcome Your Placement Challenges</h1>
+                    <p>Navigate the complexities of campus placements with confidence. We identify common hurdles and provide actionable strategies to help you secure your dream job.</p>
+                    <div class="hero-buttons">
+                        <a href="#challenges" class="btn">Explore Challenges</a>
+                        <a href="#newsletter" class="btn btn-outline">Get Resources</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="challenges" id="challenges">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Common Placement Challenges</h2>
+                    <p>Identify and overcome these typical obstacles that students face during the placement process.</p>
+                </div>
+                <div class="challenge-grid">
+                    <!-- Challenge 1 -->
+                    <div class="challenge-card" onclick="openModal('technical-interview')">
+                        <div class="card-img" style="background-color: #4361ee;">
+                            <span>🧩</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Technical Interview Preparation</h3>
+                            <p>Struggling with complex technical questions, algorithmic problems, and coding challenges during interviews.</p>
+                            <a href="https://www.interviewbit.com/technical-interview-questions/" class="read-more">Learn solutions →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Challenge 2 -->
+                    <div class="challenge-card" onclick="openModal('resume-building')">
+                        <div class="card-img" style="background-color: #3a0ca3;">
+                            <span>📄</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Resume Building</h3>
+                            <p>Creating a resume that stands out, highlights relevant skills, and passes the Applicant Tracking Systems (ATS).</p>
+                            <a href="https://resume.io/?cq_plac=&cq_net=g&cq_pos=&cq_med=&cq_plt=gp&ga_utm_source=google&utm_medium=ppc&utm_campaign=18251012851&utm_adgroup=144524553007&utm_custom=Resume.io|IN|PS|NB&utm_content=620043489766&utm_term=professional%20resume%20generator&matchtype=e&device=c&location=9153340&gad_source=1&gclid=Cj0KCQiA8fW9BhC8ARIsACwHqYqr4xM-O16NYWZpTPhfLboKVzG2MN15uPKdlxD6DOz7oRh6mU6zfH8aAqm3EALw_wcB" class="read-more">Learn solutions →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Challenge 3 -->
+                    <div class="challenge-card" onclick="openModal('aptitude-tests')">
+                        <div class="card-img" style="background-color: #4895ef;">
+                            <span>🧮</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Aptitude & Assessment Tests</h3>
+                            <p>Navigating quantitative aptitude, logical reasoning, verbal ability, and company-specific assessment tests.</p>
+                            <a href="https://www.geeksforgeeks.org/aptitude-for-placements/" class="read-more">Learn solutions →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Challenge 4 -->
+                    <div class="challenge-card" onclick="openModal('communication-skills')">
+                        <div class="card-img" style="background-color: #7209b7;">
+                            <span>💬</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Communication Skills</h3>
+                            <p>Developing effective communication for group discussions, presentations, and expressing ideas clearly in interviews.</p>
+                            <a href="https://trainings.internshala.com/communication-courses/#:~:text=Here's%20why%20Internshala%20is%20the,job%20prospects%20and%20career%20growth." class="read-more">Learn solutions →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Challenge 5 -->
+                    <div class="challenge-card" onclick="openModal('interview-anxiety')">
+                        <div class="card-img" style="background-color: #f72585;">
+                            <span>😰</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Interview Anxiety & Stress</h3>
+                            <p>Managing nervousness, building confidence, and performing well under pressure during placement interviews.</p>
+                            <a href="https://www.clevry.com/en/resources/competency-based-interview-questions/stress-management-interview-questions-answers/#1" class="read-more">Learn solutions →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Challenge 6 -->
+                    <div class="challenge-card" onclick="openModal('industry-knowledge')">
+                        <div class="card-img" style="background-color: #4cc9f0;">
+                            <span>🔍</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Industry Knowledge Gap</h3>
+                            <p>Bridging the gap between academic knowledge and industry requirements, staying updated with current trends.</p>
+                            <a href="https://disprz.ai/blog/how-to-identify-knowledge-and-skill-gaps" class="read-more">Learn solutions →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Success Stories</h2>
+                    <p>Learn from students who overcame placement challenges and secured their dream offers.</p>
+                </div>
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <p>I was struggling with technical interviews and constantly getting rejected. The structured approach to problem-solving and practice strategies I found here helped me crack interviews at three top tech companies. I eventually accepted an offer that was double my expected salary!</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">RS</div>
+                            <div class="author-info">
+                                <h4>Sonu Ray</h4>
+                                <p>Software Engineer, Tech Solutions Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter" id="newsletter">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get Placement Resources</h2>
+                    <p>Subscribe to receive interview tips, placement guides, and exclusive resources to boost your preparation.</p>
+                </div>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder=" ">
+                        <label for="name" class="form-label">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder=" ">
+                        <label for="email" class="form-label">Your Email</label>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Get Free Resources</button>
+                </form>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>PlacementPro</h3>
+                        <p>Helping students overcome placement challenges and secure their dream careers.</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/" class="social-link">F</a>
+                            <a href="https://www.linkedin.com/in/sonu-ray-7043b7290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">Li</a>
+                            <a href="https://www.instagram.com/?hl=en" class="social-link">Ig</a>
+                            <a href="https://www.youtube.com/" class="social-link">You</a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="https://www.geeksforgeeks.org/challenges-of-software-developers/">Challenges</a></li>
+                            <li><a href="https://www.quora.com/What-are-the-some-of-craziest-placement-stories-of-Engineers">Success Stories</a></li>
+                            <li><a href="https://www.geeksforgeeks.org/a-complete-step-by-step-guide-for-placement-preparation-by-geeksforgeeks/">Resources</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="https://www.interviewbit.com/technical-interview-questions/">Interview Preparation</a></li>
+                            <li><a href="https://trainings.internshala.com/communication-courses/#:~:text=Here's%20why%20Internshala%20is%20the,job%20prospects%20and%20career%20growth.">Resume Templates</a></li>
+                            <li><a href="https://www.geeksforgeeks.org/aptitude-for-placements/">Aptitude Test Practice</a></li>
+                            <li><a href="https://remasto.com/?gad_source=1&gclid=Cj0KCQiA8fW9BhC8ARIsACwHqYr70W2Ophnm0jZnfnmRw7eSp4RwRWLISQuPZJBVxsEk5dMa4v3EQzAaAnSZEALw_wcB">Mock Interviews</a></li>
+                            <li><a href="https://www.springboard.com/blog/software-engineering/software-engineer-career-path/">Career Guidance</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li>Email: contact@placementGudiance.com</li>
+                            <li>Phone: +91 63729 50723</li>
+                            <li>Address: Placement Gudiance plot no:-2, Bhubaneswar - 751024</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 PlacementPro. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login Form (hidden by default) -->
+    <div id="login-content" style="display: none;">
+        <div class="login-container">
+            <div class="login-card">
+                <h2>Welcome Back</h2>
+                <p>Login to access your placement resources</p>
+                
+                <form id="loginForm">
+                    <div class="login-form-group">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" required>
+                    </div>
+                    <div class="login-form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" required>
+                    </div>
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
+                
+                <div class="login-footer">
+                    <p>Don't have an account? <a href="#">Sign up</a></p>
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Templates -->
+    
+    <!-- Technical Interview Modal -->
+    <div class="modal" id="technical-interview-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('technical-interview')">&times;</span>
+            <div class="modal-header">
+                <h2>Mastering Technical Interviews</h2>
+                <p>Technical interviews assess your coding, problem-solving, and system design abilities. Here's how to excel at them.</p>
+            </div>
+            <div class="challenge-description">
+                <h3>The Challenge</h3>
+                <p>Many students struggle with technical interviews because they involve solving complex problems in real-time, often while explaining their thought process. The pressure, time constraints, and depth of technical knowledge required can be overwhelming.</p>
+            </div>
+            <div class="quote">
+                <p>"Technical interviews aren't just about getting the right answer—they're about demonstrating your problem-solving approach and communication skills."</p>
+                <cite>- Senior Tech Recruiter at a Fortune 500 company</cite>
+            </div>
+            <div class="solution-steps">
+                <h3>Structured Approach to Ace Technical Interviews</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <h4>Master Data Structures & Algorithms</h4>
+                    <p>Focus on array manipulations, linked lists, trees, graphs, dynamic programming, and sorting algorithms. Practice implementing these from scratch and understand their time and space complexities.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <h4>Practice Problem-Solving Daily</h4>
+                    <p>Solve at least 2-3 coding problems daily on platforms like LeetCode, HackerRank, or CodeSignal. Start with easy problems and gradually move to medium and hard ones. Focus on company-specific questions.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <h4>Learn to Think Aloud</h4>
+                    <p>Practice explaining your thought process while solving problems. This helps interviewers understand your approach even if you don't reach the perfect solution. Use the STAR method: Situation, Task, Action, Result.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <h4>Mock Interviews</h4>
+                    <p>Conduct mock interviews with peers or use platforms like Pramp or interviewing.io. Record your sessions to identify areas for improvement in your communication and problem-solving approach.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">5</span>
+                    <h4>System Design Knowledge</h4>
+                    <p>For senior roles, understand system design concepts, scalability, load balancing, caching, database sharding, and microservices architecture. Practice designing real-world systems like Twitter, Netflix, or Uber.</p>
+                </div>
+            </div>
+            <div class="resources">
+                <h3>Helpful Resources</h3>
+                <ul>
+                    <li><a href="#">Cracking the Coding Interview by Gayle Laakmann McDowell</a></li>
+                    <li><a href="#">LeetCode Premium (company-specific questions)</a></li>
+                    <li><a href="#">AlgoExpert.io - 170+ hand-picked interview questions</a></li>
+                    <li><a href="#">System Design Primer (GitHub)</a></li>
+                    <li><a href="#">YouTube: Tech Interview Pro by ex-Google / Facebook engineers</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Resume Building Modal -->
+    <div class="modal" id="resume-building-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('resume-building')">&times;</span>
+            <div class="modal-header">
+                <h2>Creating an ATS-Friendly Resume</h2>
+                <p>Learn how to craft a resume that passes Applicant Tracking Systems and impresses recruiters.</p>
+            </div>
+            <div class="challenge-description">
+                <h3>The Challenge</h3>
+                <p>Many qualified candidates get rejected before a human even sees their resume because they don't understand how Applicant Tracking Systems work. Additionally, recruiters spend just 6-7 seconds scanning each resume, so making an impact quickly is crucial.</p>
+            </div>
+            <div class="solution-steps">
+                <h3>Building a Powerful Resume</h3>
+                
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <h4>Understand ATS Requirements</h4>
+                    <p>Use simple, clean formatting without tables, headers/footers, or graphics. Stick to standard section headings (Education, Experience, Skills) and use a common file format (.docx or PDF).</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <h4>Highlight Achievements, Not Just Duties</h4>
+                    <p>For each position, focus on quantifiable achievements rather than responsibilities. Use action verbs and numbers to demonstrate impact (e.g., "Increased system efficiency by 30%").</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <h4>Tailor for Each Application</h4>
+                    <p>Customize your resume for each job by matching keywords from the job description. Many ATS systems rank resumes based on keyword matches.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <h4>Keep It Concise</h4>
+                    <p>Limit your resume to 1 page (for <5 years experience) or 2 pages max. Use bullet points and white space effectively to make it easy to scan.</p>
+                </div>
+                
+                <div class="step">
+                    <span class="step-number">5</span>
+                    <h4>Professional Summary</h4>
+                    <p>Include a 3-4 line professional summary at the top that highlights your key skills and what you bring to the role.</p>
+                </div>
+            </div>
+            <div class="resources">
+                <h3>Helpful Resources</h3>
+                <ul>
+                    <li><a href="#">Resume.io - Professional resume builder</a></li>
+                    <li><a href="#">Jobscan.co - ATS optimization tool</a></li>
+                    <li><a href="#">Zety Resume Builder</a></li>
+                    <li><a href="#">Harvard Resume Template</a></li>
+                    <li><a href="#">Resume Worded - AI-powered resume feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+        <script src="script.js"></script>
+</body>
+</html>
