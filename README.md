@@ -17,5 +17,3 @@ Check out the live demo here (if hosted): (https://sonuray0900.github.io/Student
 - 🎨 Responsive design with visually appealing layout
 
 ---
-
-## 📁 Project Structure
