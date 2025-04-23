@@ -4,7 +4,7 @@ PlacementPro is a responsive web application designed to help students overcome 
 
 ## 🔗 Live Demo
 
-Check out the live demo here (if hosted): [Demo Link](#)
+Check out the live demo here (if hosted): (https://sonuray0900.github.io/Student-E-learning-Platform/)
 
 ---
 
